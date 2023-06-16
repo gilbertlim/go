@@ -1,0 +1,11 @@
+
+// workspace
+
+go 1.18
+
+directory (
+  ./api
+  ./hello
+  ./module
+  ./package
+)
