@@ -3,9 +3,11 @@
 
 go 1.18
 
-directory (
+use (
   ./api
   ./hello
   ./module
   ./package
+  ./fmt
+  ./pointer
 )
