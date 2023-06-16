@@ -1,0 +1,11 @@
+# Ignore all
+*
+
+# Uningore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore files with specific extensions
+*.txt
