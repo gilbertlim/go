@@ -1,13 +1,22 @@
-
 // workspace
+// module을 여러 개 사용할 때 쉽게 다른 moulde을 import하여 사용할 수 있음
+// go work init
 
 go 1.18
 
+// 하나의 workspace로 관리할 directory
+// module(go.mod)이 있는 폴더의 경로 기입
+// go work use ./api
 use (
-  ./api
-  ./hello
-  ./module
-  ./package
-  ./fmt-test
-  ./pointer
+	./1_hello
+  ./2_fmt-test
+  ./3_module
+	./4_package
+  ./5_variable
+  ./6_data-type
+  ./7_operator
+  ./8_pointer
+	./api
+
+
 )
