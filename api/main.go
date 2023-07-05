@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/lib/pq"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 }
 
 func db() {
-	db, err := sql.Open("mysql", "root:password@tcp(127.0.0.1:3306)/member_service")
+	db, err := sql.Open("postgres", "postgres://postgres:postgres@localhost:5432/member_service?sslmode=disable")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -32,17 +32,21 @@ func db() {
 	}
 
 	fmt.Printf("Connection 생성: %+v\n", db.Stats())
+	fmt.Println("")
 
 	for conn.Next() {
-		member_num := ""
 		member_id := ""
-		member_name := ""
-		if err := conn.Scan(&member_num, &member_id, &member_name); err != nil {
+		name := ""
+		email := ""
+		phone := ""
+		address := ""
+		if err := conn.Scan(&member_id, &name, &email, &phone, &address); err != nil {
 			fmt.Println(err)
 		}
-		fmt.Println(member_num, member_id, member_name)
+		fmt.Println(member_id, name, email, phone, address)
 	}
-
+	fmt.Println("")
+	
 	conn.Close()
 	fmt.Printf("Connection 연결 종료: %+v\n", db.Stats())
 

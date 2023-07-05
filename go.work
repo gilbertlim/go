@@ -8,6 +8,6 @@ use (
   ./hello
   ./module
   ./package
-  ./fmt
+  ./fmt-test
   ./pointer
 )
