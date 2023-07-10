@@ -23,5 +23,7 @@ use (
   ./13_closure
   ./14_collection
   ./15_struct
+  ./16_method
+  ./17_interface
 	./api
 )

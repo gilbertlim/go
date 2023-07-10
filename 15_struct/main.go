@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// struct
+// 필드들의 집합체
 type person struct {
     name string
     age int
@@ -26,7 +28,7 @@ func main() {
     p.age = 10
     fmt.Println(p)
 
-    
+
     // struct 객체 생성
     var p1 = person{"Bob", 20}
 
