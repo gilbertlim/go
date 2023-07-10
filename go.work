@@ -22,5 +22,6 @@ use (
   ./12_anonymous-function
   ./13_closure
   ./14_collection
+  ./15_struct
 	./api
 )
