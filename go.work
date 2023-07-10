@@ -16,7 +16,9 @@ use (
   ./6_data-type
   ./7_operator
   ./8_pointer
+  ./9_condition
+  ./10_loop
+  ./11_function
+  ./12_anonymous-function
 	./api
-
-
 )
