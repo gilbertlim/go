@@ -25,5 +25,6 @@ use (
   ./15_struct
   ./16_method
   ./17_interface
+  ./18_error-handling
 	./api
 )
