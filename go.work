@@ -26,5 +26,6 @@ use (
   ./16_method
   ./17_interface
   ./18_error-handling
+  ./19_defer-panic
 	./api
 )
