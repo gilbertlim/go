@@ -6,7 +6,7 @@ go 1.18
 
 // 하나의 workspace로 관리할 directory
 // module(go.mod)이 있는 폴더의 경로 기입
-// go work use ./api
+// go work use ./22_api
 use (
 	./1_hello
 	./2_fmt-test
@@ -29,5 +29,5 @@ use (
 	./19_defer-panic
 	./20_goroutine
 	./21_channel
-	./api
+	./22_api
 )
