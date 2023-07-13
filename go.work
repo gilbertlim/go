@@ -30,4 +30,5 @@ use (
 	./20_goroutine
 	./21_channel
 	./22_api
+	./23_context
 )
