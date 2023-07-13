@@ -9,23 +9,25 @@ go 1.18
 // go work use ./api
 use (
 	./1_hello
-  ./2_fmt-test
-  ./3_module
+	./2_fmt-test
+	./3_module
 	./4_package
-  ./5_variable
-  ./6_data-type
-  ./7_operator
-  ./8_pointer
-  ./9_condition
-  ./10_loop
-  ./11_function
-  ./12_anonymous-function
-  ./13_closure
-  ./14_collection
-  ./15_struct
-  ./16_method
-  ./17_interface
-  ./18_error-handling
-  ./19_defer-panic
+	./5_variable
+	./6_data-type
+	./7_operator
+	./8_pointer
+	./9_condition
+	./10_loop
+	./11_function
+	./12_anonymous-function
+	./13_closure
+	./14_collection
+	./15_struct
+	./16_method
+	./17_interface
+	./18_error-handling
+	./19_defer-panic
+	./20_goroutine
+	./21_channel
 	./api
 )

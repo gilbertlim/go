@@ -9,3 +9,5 @@
 
 # Ignore files with specific extensions
 *.txt
+
+.idea
