@@ -31,4 +31,6 @@ use (
 	./21_channel
 	./22_api
 	./23_context
+	./24_file
+	./25_http
 )
