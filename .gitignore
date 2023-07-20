@@ -8,6 +8,6 @@
 !*/
 
 # Ignore files with specific extensions
-*.txt
+#*.txt
 
 .idea
