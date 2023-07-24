@@ -1,0 +1,4 @@
+INFO: 2023/07/24 16:15:15 /Users/mz01-lsjin/Study/go/31_logging/main.go:33: fileLogger
+2023/07/24 16:17:18 fileLoggerWithStandards
+2023/07/24 16:20:06 multi writer
+2023/07/24 16:27:39 multi writer
