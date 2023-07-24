@@ -33,4 +33,12 @@ use (
 	./23_context
 	./24_file
 	./25_http
+	./26_json
+	./27_xml
+	./28_database
+	./29_http-server
+	./30_smtp
+	./31_logging
+	./32_unit-test
+	./33_csv
 )
